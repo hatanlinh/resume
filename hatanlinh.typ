@@ -104,13 +104,22 @@
 == Projects
 
 #project(
-  name: "archivum",
-  url: "github.com/hatanlinh/archivum",
-  url-text: "hatanlinh/archivum",
+  name: "asteria",
+  url: "github.com/hatanlinh/asteria",
+  url-text: "hatanlinh/asteria",
   role: "Maintainer",
 )
-- Details \#1
-- Details \#2
+- A declarative structural parsing framework.
+- Declarative syntax language based on TOML format, compiler implemented in Rust.
+
+#project(
+  name: "cider",
+  url: "github.com/hatanlinh/cider",
+  url-text: "hatanlinh/cider",
+  role: "Maintainer",
+)
+- An OCI-based container runtime implementation.
+- Implemented in Rust.
 
 #project(
   name: "clingstone",
@@ -118,8 +127,8 @@
   url-text: "hatanlinh/clingstone",
   role: "Maintainer",
 )
-- Details \#1
-- Details \#2
+- A modern terminal multiplexer focused on developer ergonomics.
+- Implemented in Rust.
 
 #project(
   name: "evernight",
@@ -127,17 +136,8 @@
   url-text: "hatanlinh/evernight",
   role: "Maintainer",
 )
-- Details \#1
-- Details \#2
-
-#project(
-  name: "fseek",
-  url: "fseek.net",
-  url-text: "fseek.net",
-  role: "Maintainer",
-)
-- Details \#1
-- Details \#2
+- A distributed logging framework.
+- Based on Raft algorithm, library and application implemented in Rust.
 
 // == Extracurricular Activities
 
