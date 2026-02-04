@@ -109,7 +109,7 @@
   url-text: "hatanlinh/asteria",
   role: "Maintainer",
 )
-- A declarative structural parsing framework.
+- A declarative binary parsing framework.
 - Declarative syntax language based on TOML format, compiler implemented in Rust.
 
 #project(
@@ -118,7 +118,7 @@
   url-text: "hatanlinh/cider",
   role: "Maintainer",
 )
-- An OCI-based container runtime implementation.
+- A Linux container runtime.
 - Implemented in Rust.
 
 #project(
@@ -127,7 +127,7 @@
   url-text: "hatanlinh/clingstone",
   role: "Maintainer",
 )
-- A modern terminal multiplexer focused on developer ergonomics.
+- A modern terminal multiplexer with a focus on developer ergonomics.
 - Implemented in Rust.
 
 #project(
@@ -136,7 +136,7 @@
   url-text: "hatanlinh/evernight",
   role: "Maintainer",
 )
-- A distributed logging framework.
+- A distributed event streaming framework.
 - Based on Raft algorithm, library and application implemented in Rust.
 
 // == Extracurricular Activities
