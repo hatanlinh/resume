@@ -133,7 +133,11 @@
   start-date: "",
   end-date: "",
 ) = {
-  start-date + " " + $dash.em$ + " " + end-date
+  start-date + " " + $dash$ + " " + end-date
+}
+
+#let soft_break() = {
+  [\ ]
 }
 
 // Section components below
@@ -141,28 +145,14 @@
   institution: "",
   dates: "",
   degree: "",
-  gpa: "",
   location: "",
-  // Makes dates on upper right like rest of components
-  consistent: false,
 ) = {
-  if consistent {
-    // edu-constant style (dates top-right, location bottom-right)
-    generic-two-by-two(
-      top-left: strong(institution),
-      top-right: dates,
-      bottom-left: emph(degree),
-      bottom-right: emph(location),
-    )
-  } else {
-    // original edu style (location top-right, dates bottom-right)
-    generic-two-by-two(
-      top-left: strong(institution),
-      top-right: location,
-      bottom-left: emph(degree),
-      bottom-right: emph(dates),
-    )
-  }
+  generic-two-by-two(
+    top-left: strong(institution),
+    top-right: strong(dates),
+    bottom-left: emph(degree),
+    bottom-right: location,
+  )
 }
 
 #let award(
@@ -172,22 +162,32 @@
 ) = {
   generic-two-by-two(
     top-left: strong(award),
-    top-right: dates,
+    top-right: strong(dates),
     bottom-left: emph(prize),
   )
 }
 
 #let work(
-  title: "",
-  dates: "",
   company: "",
+  team: "",
   location: "",
+  dates: "",
 ) = {
   generic-two-by-two(
-    top-left: strong(title),
-    top-right: dates,
-    bottom-left: company,
-    bottom-right: emph(location),
+    top-left: strong(company),
+    top-right: strong(dates),
+    bottom-left: [ $dash.em$ #team],
+    bottom-right: location,
+  )
+}
+
+#let work_position(
+  title: "",
+  dates: "",
+) = {
+  generic-one-by-two(
+    left: strong(emph(title)),
+    right: emph(dates),
   )
 }
 

@@ -4,7 +4,7 @@
 #let name = "Linh Ha"
 #let alt-name = "Hà Tấn Linh"
 #let location = "Ho Chi Minh City, VN"
-#let email = "linh@hatanlinh.vn"
+#let email = "contact@hatanlinh.vn"
 #let github = "github.com/hatanlinh"
 #let linkedin = "linkedin.com/in/hatanlinh"
 #let phone = "+84 (704) 133 393"
@@ -46,12 +46,9 @@
 
 #edu(
   institution: "University of Science - VNUHCM",
-  location: "Ho Chi Minh City, VN",
+  location: "Ho Chi Minh City, Vietnam",
   dates: dates-helper(start-date: "Aug 2015", end-date: "June 2019"),
   degree: "Bachelor of Science in Information Technology - Honors Program",
-
-  // Uncomment the line below if you want edu formatting to be consistent with everything else
-  // consistent: true
 )
 - Relevant Coursework: Data Structures and Algorithms, Advanced Operating Systems, Advanced Computer Networks, Distributed Systems.
 
@@ -66,40 +63,53 @@
 == Work Experience
 
 #work(
+  company: "OPSWAT Vietnam",
+  team: "DeepCDR Team",
+  location: "Ho Chi Minh City, Vietnam",
+  dates: dates-helper(start-date: "Jul 2019", end-date: "Present"),
+)
+
+#work_position(
   title: "Software Engineering Manager",
-  location: "Ho Chi Minh City, VN",
-  company: "OPSWAT Vietname - MFE Team",
   dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
 )
-- Details \#1
-- Details \#2
-
-#work(
+- Manages the hiring, interviewing, and onboarding pipeline; successfully onboarding 5 new engineers.
+- Acts as a technical advisor across multiple projects, helping the team make architectural decisions and securely deliver new features.
+- Continues to lead and guide the Archive projects.
+- Remains heavily involved in programming, maintaining a high volume of direct code contributions alongside management duties.
+#work_position(
   title: "Software Engineering Team Lead",
-  location: "Ho Chi Minh City, VN",
-  company: "OPSWAT Vietnam - Archive Team",
   dates: dates-helper(start-date: "Jul 2022", end-date: "Dec 2023"),
 )
-- Details \#1
-- Details \#2
-
-#work(
+- Led a sub-team of 4 engineers focusing on Archive Extraction and Compression technologies.
+- Worked directly with clients and stakeholders to understand their needs, design solutions, and plan out development schedules for the Archive project.
+- Handled difficult customer escalations, stepping in to investigate and fix complex system bugs.
+- Continued working as a main individual contributor, mostly in charge of team's difficult new features and bug fixes.
+#work_position(
   title: "Software Engineer",
-  location: "Ho Chi Minh City, VN",
-  company: "OPSWAT Vietnam - DeepCDR Team",
   dates: dates-helper(start-date: "Jul 2019", end-date: "Jun 2022"),
 )
-- Details \#1
-- Details \#2
+- Designed and implemented new features for enterprise security products, specializing in DeepCDR (Content Disarm and Reconstruction), filetype detection and archive extraction capabilities.
+- Consistently delivered high-quality, tested code, establishing a reputation as a highly reliable individual contributor within the team.
+- Investigated and resolved multiple critical, customer-reported issues.
+- Helped investigate and fix multiple critical customer escalated issues.
+- Member of the Application Security Task Force, setting up and auditing product pipelines to enforce strict secure development lifecycles (SDLC).
+- Set up and maintained the team’s security and CI/CD infrastructure (TeamCity, BlackDuck, SonarQube, Gitleaks, etc.), helping the team maintain top security achievements in the company.
 
+#soft_break()
 #work(
-  title: "Internship",
-  location: "Ho Chi Minh City, VN",
-  company: "Evolable Asia - NHN PlayArt Lab",
+  company: "Evolable Asia",
+  team: "NHN PlayArt Lab",
+  location: "Ho Chi Minh City, Vietnam",
   dates: dates-helper(start-date: "Jul 2018", end-date: "Sep 2018"),
 )
-- Joined a short program to train new team members for the mobile game development team.
+#soft_break()
+#work_position(
+  title: "Internship",
+)
+- Participated in a training program focused on training new members for the mobile game development team.
 - The training process mainly focuses on how to learn quickly and deeply on new topics, presentation and communication skills as a team member.
+- Focused on improving teamwork, communication skills, and learning how to present work progress clearly.
 
 == Projects
 
@@ -110,7 +120,16 @@
   role: "Maintainer",
 )
 - A declarative binary parsing framework.
-- Declarative syntax language based on TOML format, compiler implemented in Rust.
+- Declarative syntax language based on YAML format, compiler implemented in Rust.
+
+#project(
+  name: "leto",
+  url: "github.com/hatanlinh/leto",
+  url-text: "hatanlinh/leto",
+  role: "Maintainer",
+)
+- A declarative binary validation framework.
+- Declarative syntax language based on YAML format, validation logics implemented in Rust.
 
 #project(
   name: "cider",
