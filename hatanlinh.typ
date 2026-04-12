@@ -158,6 +158,51 @@
 - A distributed event streaming framework.
 - Based on Raft algorithm, library and application implemented in Rust.
 
+#project(
+  name: "ceramic",
+  url: "github.com/hatanlinh/ceramic",
+  url-text: "hatanlinh/ceramic",
+  role: "Maintainer",
+)
+- A MQTT library for ESP modules. 
+- Implemented in C, header only.
+
+#project(
+  name: "epk",
+  url: "github.com/hatanlinh/epk",
+  url-text: "hatanlinh/epk",
+  role: "Maintainer",
+)
+- An executable packer toolkit, compress and obfuscate ELF executable files.
+- Implemented in Rust.
+
+#project(
+  name: "sentry",
+  url: "github.com/hatanlinh/sentry",
+  url-text: "hatanlinh/sentry",
+  role: "Maintainer",
+)
+- A Linux network monitoring tool, helps track which process is connecting to the internet.
+- Implemented in Rust, Linux eBPF.
+
+#project(
+  name: "yapper",
+  url: "github.com/hatanlinh/yapper",
+  url-text: "hatanlinh/yapper",
+  role: "Maintainer",
+)
+- Yet another performance profiler tool on Linux, similiar to perf.
+- Implemented in Rust, Linux eBPF.
+
+#project(
+  name: "charm",
+  url: "github.com/hatanlinh/charm",
+  url-text: "hatanlinh/charm",
+  role: "Maintainer",
+)
+- An image processing toolkit, read/write, apply different filters and effects on images.
+- Implemented in C.
+
 // == Extracurricular Activities
 
 // #extracurriculars(
