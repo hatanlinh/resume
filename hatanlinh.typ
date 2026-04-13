@@ -4,7 +4,7 @@
 #let name = "Linh Ha"
 #let alt-name = "Hà Tấn Linh"
 #let location = "Ho Chi Minh City, VN"
-#let email = "contact@hatanlinh.vn"
+#let email = "linh@fseek.net"
 #let github = "github.com/hatanlinh"
 #let linkedin = "linkedin.com/in/hatanlinh"
 #let phone = "+84 (704) 133 393"
@@ -52,13 +52,36 @@
 )
 - Relevant Coursework: Data Structures and Algorithms, Advanced Operating Systems, Advanced Computer Networks, Distributed Systems.
 
-== Awards
+== Awards and Recognitions
 #award(
   award: "Vietnam National Olympiad in Informatics",
   dates: "2015",
   prize: "Third prize",
 )
 - Annual programming contests for high-school students held by The Ministry of Education and Training of Vietnam.
+
+#award(
+  award: "President Club",
+  dates: "2021",
+  prize: "OPSWAT",
+)
+- Recognition for top performers globally of the company.
+- Rewarded with a company-sponsored international trip.
+
+#award(
+  award: "Employee of the year",
+  dates: "2021",
+  prize: "OPSWAT",
+)
+- Recognition for top performers of OPSWAT Vietnam at YEP.
+
+#award(
+  award: "R&D Innovation Champion",
+  dates: "2026",
+  prize: "OPSWAT",
+)
+- Recognition for important R&D innovation.
+- Rewarded with direct bonus and attend to global award at the end of the year.
 
 == Work Experience
 
