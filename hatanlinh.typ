@@ -4,7 +4,7 @@
 #let name = "Linh Ha"
 #let alt-name = "Hà Tấn Linh"
 #let location = "Ho Chi Minh City, VN"
-#let email = "linh@fseek.net"
+#let email = "contact@hatanlinh.vn"
 #let github = "github.com/hatanlinh"
 #let linkedin = "linkedin.com/in/hatanlinh"
 #let phone = "+84 (704) 133 393"
@@ -19,15 +19,18 @@
 //  location: location,
   email: email,
   github: github,
-//  linkedin: linkedin,
+  linkedin: linkedin,
   phone: phone,
-  personal-site: personal-site,
+//  personal-site: personal-site,
   accent-color: "#26428b",
   font: "New Computer Modern",
   paper: "us-letter",
   author-position: left,
   personal-info-position: left,
 )
+
+#soft_break()
+Software Engineering Manager with \~7 years of experience in cybersecurity product development, specializing in Content Disarm & Reconstruction (CDR) and file-based threat prevention. Passionate about low-level and systems programming - from binary file parsing to OS internals and advanced networking topics.
 
 /*
 * Lines that start with == are formatted into section headings
@@ -52,36 +55,13 @@
 )
 - Relevant Coursework: Data Structures and Algorithms, Advanced Operating Systems, Advanced Computer Networks, Distributed Systems.
 
-== Awards and Recognitions
+== Awards
 #award(
   award: "Vietnam National Olympiad in Informatics",
   dates: "2015",
   prize: "Third prize",
 )
 - Annual programming contests for high-school students held by The Ministry of Education and Training of Vietnam.
-
-#award(
-  award: "President Club",
-  dates: "2021",
-  prize: "OPSWAT",
-)
-- Recognition for top performers globally of the company.
-- Rewarded with a company-sponsored international trip.
-
-#award(
-  award: "Employee of the year",
-  dates: "2021",
-  prize: "OPSWAT",
-)
-- Recognition for top performers of OPSWAT Vietnam at YEP.
-
-#award(
-  award: "R&D Innovation Champion",
-  dates: "2026",
-  prize: "OPSWAT",
-)
-- Recognition for important R&D innovation.
-- Rewarded with direct bonus and attend to global award at the end of the year.
 
 == Work Experience
 
@@ -96,44 +76,44 @@
   title: "Software Engineering Manager",
   dates: dates-helper(start-date: "Jan 2024", end-date: "Present"),
 )
-- Manages the hiring, interviewing, and onboarding pipeline; successfully onboarding 5 new engineers.
-- Acts as a technical advisor across multiple projects, helping the team make architectural decisions and securely deliver new features.
-- Continues to lead and guide the Archive projects.
-- Remains heavily involved in programming, maintaining a high volume of direct code contributions alongside management duties.
+- Manages the interviewing and onboarding pipeline; successfully onboarded 5 new engineers.
+- Manages two product teams (Archive and File Structure Validation).
+- Serves as a technical advisor across 5 cross-functional projects, helping the team make architectural design decisions.
 #work_position(
   title: "Software Engineering Team Lead",
   dates: dates-helper(start-date: "Jul 2022", end-date: "Dec 2023"),
 )
-- Led a sub-team of 4 engineers focusing on Archive Extraction and Compression technologies.
-- Worked directly with clients and stakeholders to understand their needs, design solutions, and plan out development schedules for the Archive project.
-- Handled difficult customer escalations, stepping in to investigate and fix complex system bugs.
-- Continued working as a main individual contributor, mostly in charge of team's difficult new features and bug fixes.
+- Led a sub-team of 4 engineers focusing on Archive-related threat prevention technology.
+- Collaborated directly with clients and stakeholders to gather requirements, design solutions, and plan development schedules - achieving 100% on-time delivery.
+- Resolved critical customer escalations involving complex system-level bugs.
+- Maintains the team's CI/CD infrastructure (TeamCity, AWS, Docker) and automated testing pipelines.
+- Established and maintained SDLC standards: SonarQube, BlackDuck, Gitleaks, etc.
 #work_position(
   title: "Software Engineer",
   dates: dates-helper(start-date: "Jul 2019", end-date: "Jun 2022"),
 )
 - Designed and implemented new features for enterprise security products, specializing in DeepCDR (Content Disarm and Reconstruction), filetype detection and archive extraction capabilities.
-- Consistently delivered high-quality, tested code, establishing a reputation as a highly reliable individual contributor within the team.
-- Investigated and resolved multiple critical, customer-reported issues.
-- Helped investigate and fix multiple critical customer escalated issues.
-- Member of the Application Security Task Force, setting up and auditing product pipelines to enforce strict secure development lifecycles (SDLC).
-- Set up and maintained the team’s security and CI/CD infrastructure (TeamCity, BlackDuck, SonarQube, Gitleaks, etc.), helping the team maintain top security achievements in the company.
+- Led migration of the team's codebase from Wine to native Linux, resulting in measurable performance improvements over the Windows build.
+- Diagnosed and resolved multiple critical customer-escalated issues.
 
+*_Internal Recognitions_*:
+- Employee of the Year 2021.
+- President's Club 2021.
+- R&D Innovation Champions 2026.
+
+/*
 #soft_break()
 #work(
-  company: "Evolable Asia",
-  team: "NHN PlayArt Lab",
+  company: "Evolable Asia - NHN PlayArt Lab",
+  team: "Internship",
   location: "Ho Chi Minh City, Vietnam",
   dates: dates-helper(start-date: "Jul 2018", end-date: "Sep 2018"),
 )
 #soft_break()
-#work_position(
-  title: "Internship",
-)
-- Participated in a training program focused on training new members for the mobile game development team.
-- The training process mainly focuses on how to learn quickly and deeply on new topics, presentation and communication skills as a team member.
-- Focused on improving teamwork, communication skills, and learning how to present work progress clearly.
+- Participated in an internship program focused on training new members for the mobile game development team.
+*/
 
+/*
 == Projects
 
 #project(
@@ -226,6 +206,8 @@
 - An image processing toolkit, read/write, apply different filters and effects on images.
 - Implemented in C.
 
+*/
+
 // == Extracurricular Activities
 
 // #extracurriculars(
@@ -251,5 +233,7 @@
 // )
 
 == Skills
-- *Programming Languages*: C/C++, Rust, C\#, Python, JavaScript.
-- *Technologies*: Linux, .NET, MSVC, Docker, TeamCity.
+- *Languages*: C/C++, Rust, C\#, Python.
+- *Platforms and Build Systems*: Linux, Windows, .NET, CMake, MSBuild.
+- *DevOps and CI/CD*: Docker, TeamCity, AWS, SonarQube, BlackDuck, Gitleaks.
+- *Domains*: File parsing, file format analysis, threat removal, data sanitization.

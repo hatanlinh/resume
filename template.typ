@@ -87,8 +87,8 @@
       #{
         let items = (
           contact-item(alt-name),
-          contact-item(phone),
           contact-item(location),
+          contact-item(phone),
           contact-item(email, link-type: "mailto:"),
           contact-item(personal-site, link-type: "https://"),
           contact-item(github, link-type: "https://"),
@@ -164,6 +164,16 @@
     top-left: strong(award),
     top-right: strong(dates),
     bottom-left: emph(prize),
+  )
+}
+
+#let recognition(
+  title: "",
+  date: "",
+) = {
+  generic-one-by-two(
+    left: strong(emph(title)),
+    right: emph(date),
   )
 }
 
