@@ -4,7 +4,7 @@
 #let name = "Linh Ha"
 #let alt-name = "Hà Tấn Linh"
 #let location = "Ho Chi Minh City, VN"
-#let email = "contact@hatanlinh.vn"
+#let email = "hatanlinh13@gmail.com"
 #let github = "github.com/hatanlinh"
 #let linkedin = "linkedin.com/in/hatanlinh"
 #let phone = "+84 (704) 133 393"
