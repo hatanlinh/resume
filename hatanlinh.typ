@@ -50,7 +50,7 @@ Software Engineering Manager with \~7 years of experience in cybersecurity produ
 #edu(
   institution: "University of Science - VNUHCM",
   location: "Ho Chi Minh City, Vietnam",
-  dates: dates-helper(start-date: "Aug 2015", end-date: "June 2019"),
+  dates: dates-helper(start-date: "Aug 2015", end-date: "Jun 2019"),
   degree: "Bachelor of Science in Information Technology - Honors Program",
 )
 - Relevant Coursework: Data Structures and Algorithms, Advanced Operating Systems, Advanced Computer Networks, Distributed Systems.
@@ -86,7 +86,7 @@ Software Engineering Manager with \~7 years of experience in cybersecurity produ
 - Led a sub-team of 4 engineers focusing on Archive-related threat prevention technology.
 - Collaborated directly with clients and stakeholders to gather requirements, design solutions, and plan development schedules - achieving 100% on-time delivery.
 - Resolved critical customer escalations involving complex system-level bugs.
-- Maintains the team's CI/CD infrastructure (TeamCity, AWS, Docker) and automated testing pipelines.
+- Maintained the team's CI/CD infrastructure (TeamCity, AWS, Docker) and automated testing pipelines.
 - Established and maintained SDLC standards: SonarQube, BlackDuck, Gitleaks, etc.
 #work_position(
   title: "Software Engineer",
@@ -235,5 +235,5 @@ Software Engineering Manager with \~7 years of experience in cybersecurity produ
 == Skills
 - *Languages*: C/C++, Rust, C\#, Python.
 - *Platforms and Build Systems*: Linux, Windows, .NET, CMake, MSBuild.
-- *DevOps and CI/CD*: Docker, TeamCity, AWS, SonarQube, BlackDuck, Gitleaks.
+- *DevOps and CI/CD*: Docker, TeamCity, AWS, SonarQube, BlackDuck.
 - *Domains*: File parsing, file format analysis, threat removal, data sanitization.
